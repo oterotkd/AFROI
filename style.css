@@ -1,0 +1,120 @@
+/* Estilos para la sección de Registro */
+.register-area {
+    transition: all 0.3s ease;
+  }
+  
+  .register-area:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+    background-color: #f4f1e0; /* Cambio de color al pasar el cursor */
+  }
+  
+  /* Estilos para el botón de Registro */
+  .btn-inicio {
+    background-color: #7b5836;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-inicio:hover {
+    background-color: #6a4e2f; /* Un tono más oscuro cuando el cursor pasa por encima */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+  }
+  
+  .btn-inicio:focus {
+    outline: none;
+  }
+  
+  .btn-inicio:active {
+    transform: scale(0.98); /* Efecto de compresión cuando se presiona */
+  }
+  
+  /* Estilos para los input-group y iconos */
+  .input-group-text {
+    background-color: #f4f1e0; /* Fondo suave para los iconos */
+    border: 1px solid #7b5836;
+  }
+  
+  .input-group .form-control {
+    border-left: none; /* Elimina el borde izquierdo de los inputs */
+  }
+
+  
+  /* Estilos para la sección de Registro */
+.register-area {
+    transition: all 0.3s ease;
+  }
+  
+  .register-area:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.03);
+    background-color: #f4f1e0; /* Cambio de color al pasar el cursor */
+  }
+  
+  /* Estilos para los inputs y iconos */
+  .input-group-text {
+    background-color: #f4f1e0; /* Fondo suave para los iconos */
+    border: 1px solid #7b5836;
+  }
+  
+  .input-group .form-control {
+    border-left: none; /* Elimina el borde izquierdo de los inputs */
+  }
+  
+  /* Estilos para el botón de Registro */
+  .btn-inicio {
+    background-color: #7b5836;
+    color: #ffffff;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn-inicio:hover {
+    background-color: #6a4e2f; /* Un tono más oscuro cuando el cursor pasa por encima */
+    transform: scale(1.05); /* Aumenta ligeramente el tamaño del botón */
+  }
+  
+  .btn-inicio:focus {
+    outline: none;
+  }
+  
+  .btn-inicio:active {
+    transform: scale(0.98); /* Efecto de compresión cuando se presiona */
+  }
+  .register-area {
+  background-color: rgba(255, 255, 255, 0.85); /* fondo blanco semitransparente */
+  transition: all 0.3s ease;
+}
+
+.register-area:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transform: scale(1.01);
+}
+
+.btn-inicio {
+  background-color: #7b5836;
+  color: #fff;
+  border: none;
+  padding: 12px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-inicio:hover {
+  background-color: #6a4e2f;
+  transform: scale(1.05);
+}
